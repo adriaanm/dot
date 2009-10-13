@@ -88,9 +88,6 @@ trait Syntax extends AbstractBindingSyntax {
 			override def prettyPrint = tgt.prettyPrint + "." + label.prettyPrint
     }
 
-    case object Unit extends Value {
-			override def prettyPrint = "()"
-		}
 
 //    object IdMap extends Map { def apply(tm: Term) = tm }
 //    abstract class Map(tpMap: Types.Map = Types.IdMap,
